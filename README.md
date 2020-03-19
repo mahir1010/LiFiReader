@@ -26,8 +26,7 @@ The following image exhibits how the device will encode the character "M" (01001
    6. Add "one" bit to the output. If the distance between two activated LEDs is x times more than the scaled distance, add x number of 'Zero' bit(s) to the output.
    7. Convert extracted bits to byte and show output.
    
-#### Prototype : Iteration 1
-   Breadboard Version:
+#### Prototype : Sending "MAHIR"
    ![prototype](https://raw.githubusercontent.com/mahir1010/LiFiReader/SCRSHOT/LiFi.gif)
 
    
