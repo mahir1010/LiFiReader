@@ -1,10 +1,21 @@
 # LiFiReader
 Inspired  by [LightByte](https://vgrserver.eecs.yorku.ca/~jenkin/papers/2018/icinco2018codd.pdf) by Robert Codd-Downey and Prof. Michael Jenkin.
-## Iteration: 1
-   ![LiFi](https://raw.githubusercontent.com/mahir1010/LiFiReader/SCRSHOT/LiFi%20OFF.png)
-   Encodes only one byte of data. The green and white LEDs indicate most significant side and least significant side respectively. 
-   The following image exhibits how the device will encode the character "M" (01001101).
-   ![LiFi](https://raw.githubusercontent.com/mahir1010/LiFiReader/SCRSHOT/LiFi%20M.png)
+## Iteration: 1 (Naive Approach)
+   Components:
+   * Arduino Nano with ATmega328p
+   * 1x Green LED
+   * 1x White LED
+   * 8x Red LED
+   * Image Processing System:
+      * Processor: Core I7 6700HQ
+      * GPU: GTX 1060 6GB
+      * Ram: 32GB DDR4 2400MHz
+      * OS: Arch Linux (5.5.9-arch1-2)
+      
+![LiFi](https://raw.githubusercontent.com/mahir1010/LiFiReader/SCRSHOT/LiFi%20OFF.png)
+Encodes only one byte of data. The green and white LEDs indicate most significant side and least significant side respectively. 
+The following image exhibits how the device will encode the character "M" (01001101).
+![LiFi](https://raw.githubusercontent.com/mahir1010/LiFiReader/SCRSHOT/LiFi%20M.png)
    
 ### Algorithm
    1. Create a mask to extract Green and White Color (the activated LEDs will have a bright white color in the middle).
