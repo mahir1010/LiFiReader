@@ -37,3 +37,4 @@ The following image exhibits how the device will encode the character "M" (01001
    2. Change to narrow wavelength color to ensure optimal emmision under water.
    3. Use array of devices to send multiple bytes.
    4. Develop communication protcol similar to TCP, complete with two way handshaking and data stream.
+   5. Add code to calibrate reference LED color.
